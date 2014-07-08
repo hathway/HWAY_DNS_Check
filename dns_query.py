@@ -11,6 +11,7 @@ ip_re = re.compile('.*?((?:[0-9]{1,3}\.){3}[0-9]{1,3})')
 
 
 def resolve_ip(dns_server, domain):
+    print("Resolving {} against DNS server {} ...".format(domain, dns_server))
     r = dns.resolver.Resolver()
     r.name_servers = [dns_server]
     try:
