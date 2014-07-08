@@ -1,5 +1,5 @@
-Need python, dns lib
-pip install dnssimple
+Need python, dns lib, gevent
+pip install dnspython gevent
 
 
 Example usage:
