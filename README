@@ -1,0 +1,6 @@
+Need python, dns lib
+pip install dnssimple
+
+
+Example usage:
+./dns_query.py domain_list dns_list output
